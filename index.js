@@ -1,9 +1,5 @@
-//javascript object with two parameters
-var rect = {
-    //permiter and area functions
-    perimeter: (x,y) => (2*(x+y)),
-    area: (x,y) => (x*y)
-};
+//importing the rectangle module here
+var rect = require('./rectangle');
 
 function solveRect(l,b)
 {
